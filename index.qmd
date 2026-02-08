@@ -1,11 +1,25 @@
 ---
-title: "cameron-cornforth-portfolio"
+title: "Cameron Cornforth"
+about:
+  template: jolla
+  image: IMG_5187.jpg
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/cameron-cornforth-272768325/
+    - icon: github
+      text: Github
+      href: https://github.com/CameronCornforth
 ---
 
-This is a Quarto website.
+Cameron is a student of the Mathematics and Statistics department at [California State University, Monterey Bay](https://csumb.edu/math/)
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## Education
 
-```{r}
-1 + 1
-```
+CSUMB \| Monterey, California
+
+B.S. in Statistics and Data Science \| Currently Enrolled
+
+## Experience
+
+Statistics Tutor at the CSUMB Cooperative Learning Center

@@ -1,40 +1,5 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "I am a first generation college student, currently in my third-year as a statistics major at CSUMB. I am the captain of the men’s cross country and track and field teams, and enjoy enjoy exercise in the elements. For my campus day job, I am a tutor at the Cooperative Learning Center, providing illumination for STAT 250 students on the applications of statistics in science and technology. I am excited to start my first research experience with the NHGRI Great Scholar’s program over summer 2026, where I will be working at UCSC. In my free time, I enjoy going to the movies, hiking, traveling, and spending time with friends."
-  },
-  {
-    "objectID": "about.html#about-cameron-cornforth",
-    "href": "about.html#about-cameron-cornforth",
-    "title": "About",
-    "section": "",
-    "text": "I am a first generation college student, currently in my third-year as a statistics major at CSUMB. I am the captain of the men’s cross country and track and field teams, and enjoy enjoy exercise in the elements. For my campus day job, I am a tutor at the Cooperative Learning Center, providing illumination for STAT 250 students on the applications of statistics in science and technology. I am excited to start my first research experience with the NHGRI Great Scholar’s program over summer 2026, where I will be working at UCSC. In my free time, I enjoy going to the movies, hiking, traveling, and spending time with friends."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Cameron Cornforth",
-    "section": "",
-    "text": "Cameron is a student of the Mathematics and Statistics department at California State University, Monterey Bay"
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Cameron Cornforth",
-    "section": "Education",
-    "text": "Education\nCSUMB | Monterey, California\nB.S. in Statistics and Data Science | Currently Enrolled"
-  },
-  {
-    "objectID": "index.html#experience",
-    "href": "index.html#experience",
-    "title": "Cameron Cornforth",
-    "section": "Experience",
-    "text": "Experience\nStatistics Tutor at the CSUMB Cooperative Learning Center"
-  },
-  {
     "objectID": "project-portfolio.html",
     "href": "project-portfolio.html",
     "title": "Project: Exploring Seabird Data Over Time",
@@ -67,7 +32,7 @@
     "href": "project-portfolio.html#data-cleaning",
     "title": "Project: Exploring Seabird Data Over Time",
     "section": "Data Cleaning",
-    "text": "Data Cleaning\nHere I describe in plain speak what I did to clean the data. Do not show code or use technical terms. I want to be able to read this and understand what I did.\n\n\n# A tibble: 49,019 × 25\n   bird_observation_id record_id species_common_name      species_scientific_n…¹\n                 &lt;dbl&gt;     &lt;dbl&gt; &lt;fct&gt;                    &lt;chr&gt;                 \n 1                   1   1083001 Royal / Wandering albat… Diomedea epomophora /…\n 2                   2   1083001 Black-browed albatross … Diomedea impavida / m…\n 3                   3   1083001 Cape petrel              Daption capense       \n 4                   4   1083001 Fairy prion              Pachyptila turtur     \n 5                   5   1083001 Sooty shearwater         Puffinus griseus      \n 6                   6   1084001 Royal albatross sensu l… Diomedea epomophora /…\n 7                   7   1084001 Black-browed albatross … Diomedea impavida / m…\n 8                   8   1084001 Sooty shearwater         Puffinus griseus      \n 9                   9   1084002 Royal albatross sensu l… Diomedea epomophora /…\n10                  10   1084002 Black-browed albatross … Diomedea impavida / m…\n# ℹ 49,009 more rows\n# ℹ abbreviated name: ¹​species_scientific_name\n# ℹ 21 more variables: count &lt;dbl&gt;, date &lt;date&gt;, time &lt;time&gt;, latitude &lt;dbl&gt;,\n#   longitude &lt;dbl&gt;, hemisphere &lt;chr&gt;, activity &lt;chr&gt;, speed &lt;dbl&gt;,\n#   direction &lt;dbl&gt;, cloud_cover &lt;chr&gt;, precipitation &lt;chr&gt;,\n#   wind_speed_class &lt;dbl&gt;, wind_direction &lt;dbl&gt;, air_temperature &lt;dbl&gt;,\n#   pressure &lt;dbl&gt;, sea_state_class &lt;dbl&gt;, sea_surface_temperature &lt;dbl&gt;, …"
+    "text": "Data Cleaning\nHere I describe in plain speak what I did to clean the data. Do not show code or use technical terms. I want to be able to read this and understand what I did.\n\n\n# A tibble: 49,019 × 25\n   bird_observation_id record_id species_common_name      species_scientific_n…¹\n                 &lt;dbl&gt;     &lt;dbl&gt; &lt;fct&gt;                    &lt;chr&gt;                 \n 1                   1   1083001 Royal / Wandering albat… Diomedea epomophora /…\n 2                   2   1083001 Black-browed albatross … Diomedea impavida / m…\n 3                   3   1083001 Cape petrel              Daption capense       \n 4                   4   1083001 Fairy prion              Pachyptila turtur     \n 5                   5   1083001 Sooty shearwater         Puffinus griseus      \n 6                   6   1084001 Royal albatross sensu l… Diomedea epomophora /…\n 7                   7   1084001 Black-browed albatross … Diomedea impavida / m…\n 8                   8   1084001 Sooty shearwater         Puffinus griseus      \n 9                   9   1084002 Royal albatross sensu l… Diomedea epomophora /…\n10                  10   1084002 Black-browed albatross … Diomedea impavida / m…\n# ℹ 49,009 more rows\n# ℹ abbreviated name: ¹​species_scientific_name\n# ℹ 21 more variables: count &lt;dbl&gt;, date &lt;date&gt;, time &lt;time&gt;, latitude &lt;dbl&gt;,\n#   longitude &lt;dbl&gt;, hemisphere &lt;chr&gt;, activity &lt;chr&gt;, speed &lt;dbl&gt;,\n#   direction &lt;dbl&gt;, cloud_cover &lt;chr&gt;, precipitation &lt;chr&gt;,\n#   wind_speed_class &lt;dbl&gt;, wind_direction &lt;dbl&gt;, air_temperature &lt;dbl&gt;,\n#   pressure &lt;dbl&gt;, sea_state_class &lt;dbl&gt;, sea_surface_temperature &lt;dbl&gt;, …\n\n\n\n\n# A tibble: 49,019 × 25\n   bird_observation_id record_id species_common_name      species_scientific_n…¹\n                 &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;                    &lt;chr&gt;                 \n 1                   1   1083001 Royal / Wandering albat… Diomedea epomophora /…\n 2                   2   1083001 Black-browed albatross … Diomedea impavida / m…\n 3                   3   1083001 Cape petrel              Daption capense       \n 4                   4   1083001 Fairy prion              Pachyptila turtur     \n 5                   5   1083001 Sooty shearwater         Puffinus griseus      \n 6                   6   1084001 Royal albatross sensu l… Diomedea epomophora /…\n 7                   7   1084001 Black-browed albatross … Diomedea impavida / m…\n 8                   8   1084001 Sooty shearwater         Puffinus griseus      \n 9                   9   1084002 Royal albatross sensu l… Diomedea epomophora /…\n10                  10   1084002 Black-browed albatross … Diomedea impavida / m…\n# ℹ 49,009 more rows\n# ℹ abbreviated name: ¹​species_scientific_name\n# ℹ 21 more variables: count &lt;dbl&gt;, date &lt;date&gt;, time &lt;time&gt;, latitude &lt;dbl&gt;,\n#   longitude &lt;dbl&gt;, hemisphere &lt;chr&gt;, activity &lt;chr&gt;, speed &lt;dbl&gt;,\n#   direction &lt;dbl&gt;, cloud_cover &lt;chr&gt;, precipitation &lt;chr&gt;,\n#   wind_speed_class &lt;dbl&gt;, wind_direction &lt;dbl&gt;, air_temperature &lt;dbl&gt;,\n#   pressure &lt;dbl&gt;, sea_state_class &lt;dbl&gt;, sea_surface_temperature &lt;dbl&gt;, …"
   },
   {
     "objectID": "project-portfolio.html#visualzation-1",
@@ -82,5 +47,40 @@
     "title": "Project: Exploring Seabird Data Over Time",
     "section": "Visualization 2",
     "text": "Visualization 2\nHere is a description of the second visualization. I want to describe what the visualization shows to a general audience. I do not want to see any code or technical terms. I want to be able to read this and understand what the visualization shows. I also want to see a caption and alt text for the visualization. The caption should be a short description of the visualization and the alt text should be a longer description of the visualization. The alt text should be descriptive enough that someone who is blind could understand what the visualization shows."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Cameron Cornforth",
+    "section": "",
+    "text": "Cameron is a student of the Mathematics and Statistics department at California State University, Monterey Bay"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Cameron Cornforth",
+    "section": "Education",
+    "text": "Education\nCSUMB | Monterey, California\nB.S. in Statistics and Data Science | Currently Enrolled"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Cameron Cornforth",
+    "section": "Experience",
+    "text": "Experience\nStatistics Tutor at the CSUMB Cooperative Learning Center"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I am a first generation college student, currently in my third-year as a statistics major at CSUMB. I am the captain of the men’s cross country and track and field teams, and enjoy enjoy exercise in the elements. For my campus day job, I am a tutor at the Cooperative Learning Center, providing illumination for STAT 250 students on the applications of statistics in science and technology. I am excited to start my first research experience with the NHGRI Great Scholar’s program over summer 2026, where I will be working at UCSC. In my free time, I enjoy going to the movies, hiking, traveling, and spending time with friends."
+  },
+  {
+    "objectID": "about.html#about-cameron-cornforth",
+    "href": "about.html#about-cameron-cornforth",
+    "title": "About",
+    "section": "",
+    "text": "I am a first generation college student, currently in my third-year as a statistics major at CSUMB. I am the captain of the men’s cross country and track and field teams, and enjoy enjoy exercise in the elements. For my campus day job, I am a tutor at the Cooperative Learning Center, providing illumination for STAT 250 students on the applications of statistics in science and technology. I am excited to start my first research experience with the NHGRI Great Scholar’s program over summer 2026, where I will be working at UCSC. In my free time, I enjoy going to the movies, hiking, traveling, and spending time with friends."
   }
 ]

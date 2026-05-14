@@ -11,6 +11,9 @@ embed-resources: true
 #| label: setup
 #| include: false
 library(tidyverse)
+library(ggplot2)
+library(lubridate)
+
 ```
 
 
@@ -24,7 +27,7 @@ library(tidyverse)
 
 ## Research Questions:
 
-> What season are all seabirds most and least frequently observed in the Eastern hemisphere?  
+> What season are all seabirds most and least frequently observed in the Eastern hemisphere?
 
 > What is the most and least frequently observed species of seabird? Did it changed over the period from 1969 to 1990?  
 
@@ -46,7 +49,7 @@ bird_count <- read_csv("data-raw/birds.csv")|>
 
 bird_count <- bird_count|>
   left_join(ships, by = "record_id")
-  
+
 bird_count
 
 write_csv(bird_count, "data-clean/bird_count.csv")
@@ -56,6 +59,9 @@ write_csv(bird_count, "data-clean/bird_count.csv")
 ```{r}
 #| label: read-data
 
+birds <- read_csv("data-clean/bird_count.csv")
+
+birds
 
 ```
 
@@ -70,6 +76,7 @@ Here is a description of the first visualization. I want to describe what the vi
 #| fig-width: 6
 #| fig-height: 4
 #| fig-align: center
+
 
 
 ```

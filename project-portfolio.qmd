@@ -1,0 +1,103 @@
+---
+title: "Project: Exploring Seabird Data Over Time"
+format: html
+execute: 
+  echo: false
+  warning: false
+  message: false
+embed-resources: true
+---
+
+```{r}
+#| label: setup
+#| include: false
+library(tidyverse)
+```
+
+
+## Data Source: 
+
+> The data I collected is coming from the most recent TidyTuesday repository. Its a collection of seabird data from 1969 to 1990, and it includes four different datasets. One for the observations of birds by species, one for the ship details/traveling conditions of the recor ID, one for sea states, and one for beaufort scales. 
+
+## Data Description:
+
+> The birds dataset includes the record ID (numeric), bird name and scientific name as string variables, bird count (numeric), and bahaviors (following ship, sitting on water, feeding) as boolean (TRUE/FALSE) values. The ships data set includes corresponding information on the record ID (numeric), date, time, latitude/longitude, activity, atmospheric/barometric measurements, season, and observer. The sea states data set includes the sea state class (corresponding to the ships data set) sea state verbal description, (discrete), wave meters min and waves meter max. The beaufort scale data set includes the wind speed class correpsonding to the ships data set (discrete), wind speed verbal description, and the wind speed knots min/max. With this data, I am seeking to answer the following mini-research questions. 
+
+## Research Questions:
+
+> What season are all seabirds most and least frequently observed in the Eastern hemisphere?  
+
+> What is the most and least frequently observed species of seabird? Did it changed over the period from 1969 to 1990?  
+
+> What sea conditions are seabirds most frequently spotted (beafort and sea state)? 
+
+## Data Cleaning
+
+Here I describe in plain speak what I did to clean the data. Do not show code or use technical terms. I want to be able to read this and understand what I did.
+
+```{r}
+#| label: data-cleaning
+
+ships <- read_csv("data-raw/ships.csv")
+
+bird_count <- read_csv("data-raw/birds.csv")|>
+  select(bird_observation_id, record_id, species_common_name, species_scientific_name, count) |>
+  mutate(species_common_name = as.factor(species_common_name))
+
+
+bird_count <- bird_count|>
+  left_join(ships, by = "record_id")
+  
+bird_count
+
+
+```
+
+```{r}
+#| label: read-data
+#read in your clean data here
+iris <- read_csv("data/clean-iris.csv")
+cares <- read_csv("data/clean-cars.csv")
+```
+
+## Visualzation 1
+
+Here is a description of the first visualization. I want to describe what the visualization shows to a general audience. I do not want to see any code or technical terms. I want to be able to read this and understand what the visualization shows. I also want to see a caption and alt text for the visualization. The caption should be a short description of the visualization and the alt text should be a longer description of the visualization. The alt text should be descriptive enough that someone who is blind could understand what the visualization shows.
+
+```{r}
+#| label: viz-1
+#| fig-cap: "This is a caption for the first visualization"
+#| fig-alt: "This is an alternative text for the first visualization"
+#| fig-width: 6
+#| fig-height: 4
+#| fig-align: center
+
+#create plot of iris dataset
+ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width)) +
+  geom_point() +
+  labs(title = "Iris Dataset", 
+       x = "Sepal Length", 
+       y = "Sepal Width") +
+  theme_minimal()
+```
+
+## Visualization 2
+
+Here is a description of the second visualization. I want to describe what the visualization shows to a general audience. I do not want to see any code or technical terms. I want to be able to read this and understand what the visualization shows. I also want to see a caption and alt text for the visualization. The caption should be a short description of the visualization and the alt text should be a longer description of the visualization. The alt text should be descriptive enough that someone who is blind could understand what the visualization shows.
+
+```{r}
+#| label: viz-2
+#| fig-cap: "This is a caption for the second visualization"
+#| fig-alt: "This is an alternative text for the second visualization"
+#| fig-width: 6
+#| fig-height: 4
+#| fig-align: center
+
+#create plot of cars data set
+ggplot(cars, aes(x = speed, y = dist)) +
+  geom_point() +
+  labs(title = "Cars Dataset", 
+       x = "Speed", 
+       y = "Distance") +
+  theme_minimal()
+```

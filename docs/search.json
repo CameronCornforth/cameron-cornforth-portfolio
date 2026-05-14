@@ -1,52 +1,66 @@
 [
   {
-    "objectID": "project-portfolio.html",
-    "href": "project-portfolio.html",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I am a first generation college student, currently in my third-year as a statistics major at CSUMB. I am the captain of the men’s cross country and track and field teams, and enjoy enjoy exercise in the elements. For my campus day job, I am a tutor at the Cooperative Learning Center, providing illumination for STAT 250 students on the applications of statistics in science and technology. I am excited to start my first research experience with the NHGRI Great Scholar’s program over summer 2026, where I will be working at UCSC. In my free time, I enjoy going to the movies, hiking, traveling, and spending time with friends."
+  },
+  {
+    "objectID": "about.html#about-cameron-cornforth",
+    "href": "about.html#about-cameron-cornforth",
+    "title": "About",
+    "section": "",
+    "text": "I am a first generation college student, currently in my third-year as a statistics major at CSUMB. I am the captain of the men’s cross country and track and field teams, and enjoy enjoy exercise in the elements. For my campus day job, I am a tutor at the Cooperative Learning Center, providing illumination for STAT 250 students on the applications of statistics in science and technology. I am excited to start my first research experience with the NHGRI Great Scholar’s program over summer 2026, where I will be working at UCSC. In my free time, I enjoy going to the movies, hiking, traveling, and spending time with friends."
+  },
+  {
+    "objectID": "portfolio-project/project-portfolio.html",
+    "href": "portfolio-project/project-portfolio.html",
     "title": "Project: Exploring Seabird Data Over Time",
     "section": "",
     "text": "The data I collected is coming from a recent TidyTuesday repository. It is a collection of seabird data from 1969 to 1990, and it includes four different datasets. One for the observations of birds by species, one for the ship details/traveling conditions of the record ID, one for sea states, and one for beaufort scales."
   },
   {
-    "objectID": "project-portfolio.html#data-source",
-    "href": "project-portfolio.html#data-source",
+    "objectID": "portfolio-project/project-portfolio.html#data-source",
+    "href": "portfolio-project/project-portfolio.html#data-source",
     "title": "Project: Exploring Seabird Data Over Time",
     "section": "",
     "text": "The data I collected is coming from a recent TidyTuesday repository. It is a collection of seabird data from 1969 to 1990, and it includes four different datasets. One for the observations of birds by species, one for the ship details/traveling conditions of the record ID, one for sea states, and one for beaufort scales."
   },
   {
-    "objectID": "project-portfolio.html#data-description",
-    "href": "project-portfolio.html#data-description",
+    "objectID": "portfolio-project/project-portfolio.html#data-description",
+    "href": "portfolio-project/project-portfolio.html#data-description",
     "title": "Project: Exploring Seabird Data Over Time",
     "section": "Data Description:",
     "text": "Data Description:\n\nThe birds dataset includes the record ID (numeric), bird name and scientific name as string variables, bird count (numeric), and behaviors (following ship, sitting on water, feeding) as boolean (TRUE/FALSE) values. The ships data set includes corresponding information on the record ID (numeric), date, time, latitude/longitude, activity, atmospheric/barometric measurements, season, and observer. The sea states data set includes the sea state class (corresponding to the ships data set) sea state verbal description, and wave meters min and waves meter max. The beaufort scale data set includes the wind speed class correpsonding to the ships data set (discrete), wind speed verbal description, and the wind speed knots min/max. With this data, I am seeking to answer the following mini-research questions."
   },
   {
-    "objectID": "project-portfolio.html#research-questions",
-    "href": "project-portfolio.html#research-questions",
+    "objectID": "portfolio-project/project-portfolio.html#research-questions",
+    "href": "portfolio-project/project-portfolio.html#research-questions",
     "title": "Project: Exploring Seabird Data Over Time",
     "section": "Research Questions:",
     "text": "Research Questions:\n\nWhat season are all seabirds most and least frequently observed in the Eastern hemisphere?\n\n\nWhat sea conditions are seabirds most frequently spotted (sea state)?"
   },
   {
-    "objectID": "project-portfolio.html#data-cleaning",
-    "href": "project-portfolio.html#data-cleaning",
+    "objectID": "portfolio-project/project-portfolio.html#data-cleaning",
+    "href": "portfolio-project/project-portfolio.html#data-cleaning",
     "title": "Project: Exploring Seabird Data Over Time",
     "section": "Data Cleaning",
     "text": "Data Cleaning\nTo clean the data, I first examined all four datasets, and found that only the “birds” and “ships” data would be meaningful for my analysis. I then selected only relevant variables to use from the birds data, such as the record id, observation id, and count (total number of birds observed per observation). I then found a matching variable in the birds and ships data sets and used it to join both together. This gave me additional metadata associated with each observation that pertained to my research questions. Next, I had to convert two variable (sea state and wind state) to factors, so I could treat them as distinct levels (sea state 1, 2, 3, etc.) instead keeping them on a continuous scale."
   },
   {
-    "objectID": "project-portfolio.html#visualzation-1",
-    "href": "project-portfolio.html#visualzation-1",
+    "objectID": "portfolio-project/project-portfolio.html#visualization-1---seasons-barplot",
+    "href": "portfolio-project/project-portfolio.html#visualization-1---seasons-barplot",
     "title": "Project: Exploring Seabird Data Over Time",
-    "section": "Visualzation 1",
-    "text": "Visualzation 1\nHere is a description of the first visualization. I want to describe what the visualization shows to a general audience. I do not want to see any code or technical terms. I want to be able to read this and understand what the visualization shows. I also want to see a caption and alt text for the visualization. The caption should be a short description of the visualization and the alt text should be a longer description of the visualization. The alt text should be descriptive enough that someone who is blind could understand what the visualization shows."
+    "section": "Visualization 1 - Seasons Barplot",
+    "text": "Visualization 1 - Seasons Barplot\nThis bar plot investigates if there are any seasons where seabirds are observed the most across the entire time series of observations from 1969-1990. The x-axis is mapped to season (winter, spring, summer, fall), and the y-axis is the total count of all birds. From here we can clearly see that seabirds are most frequently observed in the spring, followed closely by summer. This makes sense as rising sea and coastal temperatures in spring, along with increased sunlight availability, can lead to more abundance of phytoplankton, causing a trophic cascade of food/fish availability in the water column for seabirds. Migratory seabirds follow open-ocean hunting patterns year-round, but it may be easier to observe these behaviors in the spring and summer when such resources are abundant for fish, as compared to the winter and autumn seasons.\n\n\n\n\n\nFigure 1: Bar plot comparing the total counts for seabirds across all species by calendar season. Data: TidyTuesday (Github)"
   },
   {
-    "objectID": "project-portfolio.html#visualization-2",
-    "href": "project-portfolio.html#visualization-2",
+    "objectID": "portfolio-project/project-portfolio.html#visualization-2---sea-conditions-heatmap",
+    "href": "portfolio-project/project-portfolio.html#visualization-2---sea-conditions-heatmap",
     "title": "Project: Exploring Seabird Data Over Time",
-    "section": "Visualization 2",
-    "text": "Visualization 2\nHere is a description of the second visualization. I want to describe what the visualization shows to a general audience. I do not want to see any code or technical terms. I want to be able to read this and understand what the visualization shows. I also want to see a caption and alt text for the visualization. The caption should be a short description of the visualization and the alt text should be a longer description of the visualization. The alt text should be descriptive enough that someone who is blind could understand what the visualization shows."
+    "section": "Visualization 2 - Sea Conditions Heatmap",
+    "text": "Visualization 2 - Sea Conditions Heatmap\nThis heatmap investigates if there is are any patterns in overall sea state and the frequency of seabird observations. The x-axis, sea state class, is a measure of sea conditions (waves, swell, etc.), and higher values indicate rougher waters. Similarly, the y-axis, wind state class, is a measure of wind force, with higher values indicating more blustery seas. Both use the Beaufort weather scale. Color is mapped to the log-transformed total count of seabirds across all observations from 1969-1990, with reddish orange representing more observations and purplish blue indicating less observations. Compared to neighboring tiles, there is a distinct pinkish-orange clustering of tiles in the center of distribution, around sea state class 3-4 and wind state class 6-7. This could indicate that moderate weather conditions yield a higher frequency of overall seabird observations.\n\n\n\n\n\nFigure 2: Heatmap displaying the intensity of seabird observations by sea state class and wind state class. Data: TidyTuesday (Github)"
   },
   {
     "objectID": "index.html",
@@ -68,33 +82,5 @@
     "title": "Cameron Cornforth",
     "section": "Experience",
     "text": "Experience\nStatistics Tutor at the CSUMB Cooperative Learning Center"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "I am a first generation college student, currently in my third-year as a statistics major at CSUMB. I am the captain of the men’s cross country and track and field teams, and enjoy enjoy exercise in the elements. For my campus day job, I am a tutor at the Cooperative Learning Center, providing illumination for STAT 250 students on the applications of statistics in science and technology. I am excited to start my first research experience with the NHGRI Great Scholar’s program over summer 2026, where I will be working at UCSC. In my free time, I enjoy going to the movies, hiking, traveling, and spending time with friends."
-  },
-  {
-    "objectID": "about.html#about-cameron-cornforth",
-    "href": "about.html#about-cameron-cornforth",
-    "title": "About",
-    "section": "",
-    "text": "I am a first generation college student, currently in my third-year as a statistics major at CSUMB. I am the captain of the men’s cross country and track and field teams, and enjoy enjoy exercise in the elements. For my campus day job, I am a tutor at the Cooperative Learning Center, providing illumination for STAT 250 students on the applications of statistics in science and technology. I am excited to start my first research experience with the NHGRI Great Scholar’s program over summer 2026, where I will be working at UCSC. In my free time, I enjoy going to the movies, hiking, traveling, and spending time with friends."
-  },
-  {
-    "objectID": "project-portfolio.html#visualization-1---seasons-barplot",
-    "href": "project-portfolio.html#visualization-1---seasons-barplot",
-    "title": "Project: Exploring Seabird Data Over Time",
-    "section": "Visualization 1 - Seasons Barplot",
-    "text": "Visualization 1 - Seasons Barplot\nThis bar plot investigates if there are any seasons where seabirds are observed the most across the entire time series of observations from 1969-1990. The x-axis is mapped to season (winter, spring, summer, fall), and the y-axis is the total count of all birds. From here we can clearly see that seabirds are most frequently observed in the spring, followed closely by summer. This makes sense as rising sea and coastal temperatures in spring, along with increased sunlight availability, can lead to more abundance of phytoplankton, causing a trophic cascade of food/fish availability in the water column for seabirds. Migratory seabirds follow open-ocean hunting patterns year-round, but it may be easier to observe these behaviors in the spring and summer when such resources are abundant for fish, as compared to the winter and autumn seasons.\n\n\n\n\n\nFigure 1: Bar plot comparing the total counts for seabirds across all species by calendar season. Data: TidyTuesday (Github)"
-  },
-  {
-    "objectID": "project-portfolio.html#visualization-2---sea-conditions-heatmap",
-    "href": "project-portfolio.html#visualization-2---sea-conditions-heatmap",
-    "title": "Project: Exploring Seabird Data Over Time",
-    "section": "Visualization 2 - Sea Conditions Heatmap",
-    "text": "Visualization 2 - Sea Conditions Heatmap\nThis heatmap investigates if there is are any patterns in overall sea state and the frequency of seabird observations. The x-axis, sea state class, is a measure of sea conditions (waves, swell, etc.), and higher values indicate rougher waters. Similarly, the y-axis, wind state class, is a measure of wind force, with higher values indicating more blustery seas. Both use the Beaufort weather scale. Color is mapped to the log-transformed total count of seabirds across all observations from 1969-1990, with reddish orange representing more observations and purplish blue indicating less observations. Compared to neighboring tiles, there is a distinct pinkish-orange clustering of tiles in the center of distribution, around sea state class 3-4 and wind state class 6-7. This could indicate that moderate weather conditions yield a higher frequency of overall seabird observations.\n\n\n\n\n\nFigure 2: Heatmap displaying the intensity of seabird observations by sea state class and wind state class. Data: TidyTuesday (Github)"
   }
 ]

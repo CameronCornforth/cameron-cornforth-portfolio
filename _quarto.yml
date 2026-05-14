@@ -10,7 +10,7 @@ website:
         text: "Home"
       - href: about.qmd
         text: "About Me"
-      - href: project-portfolio.qmd
+      - href: portfolio-project/project-portfolio.qmd
         text: "Project: Exploring Seabird Data Over Time"
         
 format:

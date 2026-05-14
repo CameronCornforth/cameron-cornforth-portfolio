@@ -50,14 +50,14 @@ bird_count <- bird_count|>
   
 bird_count
 
+write_csv(bird_count, "data-clean/bird_count.csv")
 
 ```
 
 ```{r}
 #| label: read-data
-#read in your clean data here
-iris <- read_csv("data/clean-iris.csv")
-cares <- read_csv("data/clean-cars.csv")
+
+
 ```
 
 ## Visualzation 1
@@ -72,13 +72,7 @@ Here is a description of the first visualization. I want to describe what the vi
 #| fig-height: 4
 #| fig-align: center
 
-#create plot of iris dataset
-ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width)) +
-  geom_point() +
-  labs(title = "Iris Dataset", 
-       x = "Sepal Length", 
-       y = "Sepal Width") +
-  theme_minimal()
+
 ```
 
 ## Visualization 2
@@ -93,11 +87,5 @@ Here is a description of the second visualization. I want to describe what the v
 #| fig-height: 4
 #| fig-align: center
 
-#create plot of cars data set
-ggplot(cars, aes(x = speed, y = dist)) +
-  geom_point() +
-  labs(title = "Cars Dataset", 
-       x = "Speed", 
-       y = "Distance") +
-  theme_minimal()
+
 ```

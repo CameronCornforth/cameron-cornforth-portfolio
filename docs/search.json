@@ -33,5 +33,54 @@
     "title": "Cameron Cornforth",
     "section": "Experience",
     "text": "Experience\nStatistics Tutor at the CSUMB Cooperative Learning Center"
+  },
+  {
+    "objectID": "project-portfolio.html",
+    "href": "project-portfolio.html",
+    "title": "Project: Exploring Seabird Data Over Time",
+    "section": "",
+    "text": "The data I collected is coming from the most recent TidyTuesday repository. Its a collection of seabird data from 1969 to 1990, and it includes four different datasets. One for the observations of birds by species, one for the ship details/traveling conditions of the recor ID, one for sea states, and one for beaufort scales."
+  },
+  {
+    "objectID": "project-portfolio.html#data-source",
+    "href": "project-portfolio.html#data-source",
+    "title": "Project: Exploring Seabird Data Over Time",
+    "section": "",
+    "text": "The data I collected is coming from the most recent TidyTuesday repository. Its a collection of seabird data from 1969 to 1990, and it includes four different datasets. One for the observations of birds by species, one for the ship details/traveling conditions of the recor ID, one for sea states, and one for beaufort scales."
+  },
+  {
+    "objectID": "project-portfolio.html#data-description",
+    "href": "project-portfolio.html#data-description",
+    "title": "Project: Exploring Seabird Data Over Time",
+    "section": "Data Description:",
+    "text": "Data Description:\n\nThe birds dataset includes the record ID (numeric), bird name and scientific name as string variables, bird count (numeric), and bahaviors (following ship, sitting on water, feeding) as boolean (TRUE/FALSE) values. The ships data set includes corresponding information on the record ID (numeric), date, time, latitude/longitude, activity, atmospheric/barometric measurements, season, and observer. The sea states data set includes the sea state class (corresponding to the ships data set) sea state verbal description, (discrete), wave meters min and waves meter max. The beaufort scale data set includes the wind speed class correpsonding to the ships data set (discrete), wind speed verbal description, and the wind speed knots min/max. With this data, I am seeking to answer the following mini-research questions."
+  },
+  {
+    "objectID": "project-portfolio.html#research-questions",
+    "href": "project-portfolio.html#research-questions",
+    "title": "Project: Exploring Seabird Data Over Time",
+    "section": "Research Questions:",
+    "text": "Research Questions:\n\nWhat season are all seabirds most and least frequently observed in the Eastern hemisphere?\n\n\nWhat is the most and least frequently observed species of seabird? Did it changed over the period from 1969 to 1990?\n\n\nWhat sea conditions are seabirds most frequently spotted (beafort and sea state)?"
+  },
+  {
+    "objectID": "project-portfolio.html#data-cleaning",
+    "href": "project-portfolio.html#data-cleaning",
+    "title": "Project: Exploring Seabird Data Over Time",
+    "section": "Data Cleaning",
+    "text": "Data Cleaning\nHere I describe in plain speak what I did to clean the data. Do not show code or use technical terms. I want to be able to read this and understand what I did.\n\n\n# A tibble: 49,019 × 25\n   bird_observation_id record_id species_common_name      species_scientific_n…¹\n                 &lt;dbl&gt;     &lt;dbl&gt; &lt;fct&gt;                    &lt;chr&gt;                 \n 1                   1   1083001 Royal / Wandering albat… Diomedea epomophora /…\n 2                   2   1083001 Black-browed albatross … Diomedea impavida / m…\n 3                   3   1083001 Cape petrel              Daption capense       \n 4                   4   1083001 Fairy prion              Pachyptila turtur     \n 5                   5   1083001 Sooty shearwater         Puffinus griseus      \n 6                   6   1084001 Royal albatross sensu l… Diomedea epomophora /…\n 7                   7   1084001 Black-browed albatross … Diomedea impavida / m…\n 8                   8   1084001 Sooty shearwater         Puffinus griseus      \n 9                   9   1084002 Royal albatross sensu l… Diomedea epomophora /…\n10                  10   1084002 Black-browed albatross … Diomedea impavida / m…\n# ℹ 49,009 more rows\n# ℹ abbreviated name: ¹​species_scientific_name\n# ℹ 21 more variables: count &lt;dbl&gt;, date &lt;date&gt;, time &lt;time&gt;, latitude &lt;dbl&gt;,\n#   longitude &lt;dbl&gt;, hemisphere &lt;chr&gt;, activity &lt;chr&gt;, speed &lt;dbl&gt;,\n#   direction &lt;dbl&gt;, cloud_cover &lt;chr&gt;, precipitation &lt;chr&gt;,\n#   wind_speed_class &lt;dbl&gt;, wind_direction &lt;dbl&gt;, air_temperature &lt;dbl&gt;,\n#   pressure &lt;dbl&gt;, sea_state_class &lt;dbl&gt;, sea_surface_temperature &lt;dbl&gt;, …"
+  },
+  {
+    "objectID": "project-portfolio.html#visualzation-1",
+    "href": "project-portfolio.html#visualzation-1",
+    "title": "Project: Exploring Seabird Data Over Time",
+    "section": "Visualzation 1",
+    "text": "Visualzation 1\nHere is a description of the first visualization. I want to describe what the visualization shows to a general audience. I do not want to see any code or technical terms. I want to be able to read this and understand what the visualization shows. I also want to see a caption and alt text for the visualization. The caption should be a short description of the visualization and the alt text should be a longer description of the visualization. The alt text should be descriptive enough that someone who is blind could understand what the visualization shows."
+  },
+  {
+    "objectID": "project-portfolio.html#visualization-2",
+    "href": "project-portfolio.html#visualization-2",
+    "title": "Project: Exploring Seabird Data Over Time",
+    "section": "Visualization 2",
+    "text": "Visualization 2\nHere is a description of the second visualization. I want to describe what the visualization shows to a general audience. I do not want to see any code or technical terms. I want to be able to read this and understand what the visualization shows. I also want to see a caption and alt text for the visualization. The caption should be a short description of the visualization and the alt text should be a longer description of the visualization. The alt text should be descriptive enough that someone who is blind could understand what the visualization shows."
   }
 ]

@@ -4,5 +4,5 @@ format: html
 
 ---
 
-{{< pdf cornforthc_biostats_cv.pdf button="Download PDF" >}}
+{{< pdf cv/cornforthc_biostats_cv.pdf button="Download PDF" >}}
 

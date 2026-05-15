@@ -1,24 +1,101 @@
 [
   {
-    "objectID": "research-interests.html",
-    "href": "research-interests.html",
-    "title": "Research Interests",
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
     "section": "",
-    "text": "I want to use my experience in the GREAT program and graduate school to contribute to the larger body of wound healing research from a computational standpoint. I plan on using machine learning and autoencoders to be able to predict the stages of wound healing, potentially attributing genetic elements as a factor impacting wound healing progression. Additionally, since I am new to the field of statistics as a whole, I want to learn more about what the process of statistics is like in practice, both conceptually and computationally, outside of the classroom. Given that I have minimal prior research experience and I have only recently become comfortable with saying I am a statistics major, I would be fulfilled contributing to genomic research to the best of my capacity in any way, and I hope to be able to use these upcoming experiences for the betterment of human health as I continue my education and into my future career."
+    "text": "Coming Soon!\nI plan on updating this section weekly throughout my GREAT Scholars summer research experience. I will post about challenges I have encountered and insights I have gained along the way."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "cv/cv.html",
+    "href": "cv/cv.html",
+    "title": "CV",
     "section": "",
-    "text": "I am a first generation college student, currently in my third-year as a statistics major at CSUMB. I am the captain of the men’s cross country and track and field teams, and enjoy enjoy exercise in the elements. For my campus day job, I am a tutor at the Cooperative Learning Center, providing illumination for STAT 250 students on the applications of statistics in science and technology. I am excited to start my first research experience with the NHGRI Great Scholar’s program over summer 2026, where I will be working at UCSC. In my free time, I enjoy going to the movies, hiking, traveling, and spending time with friends."
+    "text": "California State University, Monterey Bay, Seaside, CA Expected Graduation: May 2027 Bachelor of Science, Statistics and Data Science Current Cumulative GPA: 4.0\n\n\n\n\nBiostatistics - Applying statistical techniques to scientific research in health-related fields, including medicine, biology, and public health, and the development of new tools to study these areas.\nGenomics - Studying genomes in their entirety and the large amounts of corresponding data generated from them, with application in health outcomes at the population level.\nBiomathematics - Using mathematical models, algorithms, and simulations to understand biological phenomena better."
   },
   {
-    "objectID": "about.html#about-cameron-cornforth",
-    "href": "about.html#about-cameron-cornforth",
-    "title": "About",
+    "objectID": "cv/cv.html#education",
+    "href": "cv/cv.html#education",
+    "title": "CV",
     "section": "",
-    "text": "I am a first generation college student, currently in my third-year as a statistics major at CSUMB. I am the captain of the men’s cross country and track and field teams, and enjoy enjoy exercise in the elements. For my campus day job, I am a tutor at the Cooperative Learning Center, providing illumination for STAT 250 students on the applications of statistics in science and technology. I am excited to start my first research experience with the NHGRI Great Scholar’s program over summer 2026, where I will be working at UCSC. In my free time, I enjoy going to the movies, hiking, traveling, and spending time with friends."
+    "text": "California State University, Monterey Bay, Seaside, CA Expected Graduation: May 2027 Bachelor of Science, Statistics and Data Science Current Cumulative GPA: 4.0"
+  },
+  {
+    "objectID": "cv/cv.html#research-interests",
+    "href": "cv/cv.html#research-interests",
+    "title": "CV",
+    "section": "",
+    "text": "Biostatistics - Applying statistical techniques to scientific research in health-related fields, including medicine, biology, and public health, and the development of new tools to study these areas.\nGenomics - Studying genomes in their entirety and the large amounts of corresponding data generated from them, with application in health outcomes at the population level.\nBiomathematics - Using mathematical models, algorithms, and simulations to understand biological phenomena better."
+  },
+  {
+    "objectID": "cv/cv.html#stat-335---data-simulation-and-analysis-2025",
+    "href": "cv/cv.html#stat-335---data-simulation-and-analysis-2025",
+    "title": "CV",
+    "section": "STAT 335 - Data Simulation and Analysis 2025",
+    "text": "STAT 335 - Data Simulation and Analysis 2025\n\nImplemented and evaluated appropriate statistical models to address research questions.\nApplied concepts such as ANCOVA, Logistic Mixed-Effects, and Survival Analysis to real-world datasets.\nUtilized simulation in R to evaluate bias, variance, statistical power, and coverage probability."
+  },
+  {
+    "objectID": "cv/cv.html#stat-310---data-visualization-2025",
+    "href": "cv/cv.html#stat-310---data-visualization-2025",
+    "title": "CV",
+    "section": "STAT 310 - Data Visualization 2025",
+    "text": "STAT 310 - Data Visualization 2025\n\nCreated dynamic data visualizations using R/Quarto to convey underlying relationships, correlations, and data distribution within datasets.\nShowcased interactive dashboards using spatio-temporal data to address primary research questions.\nHarnessed key concepts in data visualization, such as Gestalt Principles and elements of design, to highlight aspects of visualizations."
+  },
+  {
+    "objectID": "cv/cv.html#experience",
+    "href": "cv/cv.html#experience",
+    "title": "CV",
+    "section": "EXPERIENCE",
+    "text": "EXPERIENCE\nStatistics SI Leader (Tutor) Cooperative Learning Center, California State University Monterey Bay (CSUMB), Seaside, CA (August 2025 - Present)\n\nLead weekly concept and topic sessions to encourage healthy study habits for students.\nCollaborate with fellow SI leaders and coordinators to create relevant study resources for module content.\nExplain introductory-level statistical concepts in both individual and group settings.\n\nResearch Assistant/Intern Cascadia Research Collective Project, Lana’i, HI (July 2024)\n\nConducted field data collection for sea state conditions, event timeframe, and wildlife encountered.\nHandled and processed marine mammal biopsies for laboratory genetic analysis.\nCreated tables in Excel of pilot whale dive rates using telemetry tag data."
+  },
+  {
+    "objectID": "cv/cv.html#research-experience",
+    "href": "cv/cv.html#research-experience",
+    "title": "CV",
+    "section": "RESEARCH EXPERIENCE",
+    "text": "RESEARCH EXPERIENCE\nCURE Research California State University Monterey Bay (CSUMB), Seaside, CA (January - May 2025)\n\nCreated and analyzed transects in coastal dune habitat to report the abundance of native plant species.\nUsed regression analysis to indicate the decreased percent coverage in E. cicutarium over time.\nWorked with classmates in the field to properly collect plant coverage data by random sampling methods."
+  },
+  {
+    "objectID": "cv/cv.html#volunteer-experience",
+    "href": "cv/cv.html#volunteer-experience",
+    "title": "CV",
+    "section": "VOLUNTEER EXPERIENCE",
+    "text": "VOLUNTEER EXPERIENCE\nHabitat Stewardship Project of Monterey, Marina, CA (25 hours) (January - May 2025)\n\nCultivated transplants for endemic and native foliage species.\nContributed to HSP’s social media page, creating informational graphics about native/invasive species.\nLed groups at local outreach events in invasive species removal and native replanting."
+  },
+  {
+    "objectID": "cv/cv.html#skills",
+    "href": "cv/cv.html#skills",
+    "title": "CV",
+    "section": "SKILLS",
+    "text": "SKILLS\n\nProficient in R for creating intricate data visualizations and running simulations using probability models.\nBeginner-level programming in Java.\n\nEfficiency in diagnosing students’ errors in R Markdown and Quarto documents.\nEffective in drawing inferences from statistical analysis using thorough explanations citing data.\nMedium-level technical statistical writing skills.\nPassionate about deconstructing complex concepts for students to understand in their own way.\nPrompt communicator with a reputation for timely response."
+  },
+  {
+    "objectID": "cv/cv.html#awards-and-honors",
+    "href": "cv/cv.html#awards-and-honors",
+    "title": "CV",
+    "section": "AWARDS AND HONORS",
+    "text": "AWARDS AND HONORS\n\nCSUMB Dean’s List 2023-2026\nCCAA Elite 13 Award\nCSUMB Men’s Cross-Country/Track and Field Team Captain\n2025-2026 CSUMB Scholar of the Year Award\nPi Mu Epsilon Member"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Cameron Cornforth",
+    "section": "",
+    "text": "Cameron is a student of the Mathematics and Statistics department at California State University, Monterey Bay"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Cameron Cornforth",
+    "section": "Education",
+    "text": "Education\nCSUMB | Monterey, California\nB.S. in Statistics and Data Science | Currently Enrolled"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Cameron Cornforth",
+    "section": "Experience",
+    "text": "Experience\nStatistics Tutor at the CSUMB Cooperative Learning Center"
   },
   {
     "objectID": "portfolio-project/project-portfolio.html",
@@ -70,31 +147,24 @@
     "text": "Visualization 2 - Sea Conditions Heatmap\nThis heatmap investigates if there is are any patterns in overall sea state and the frequency of seabird observations. The x-axis, sea state class, is a measure of sea conditions (waves, swell, etc.), and higher values indicate rougher waters. Similarly, the y-axis, wind state class, is a measure of wind force, with higher values indicating more blustery seas. Both use the Beaufort weather scale. Color is mapped to the log-transformed total count of seabirds across all observations from 1969-1990, with reddish orange representing more observations and purplish blue indicating less observations. Compared to neighboring tiles, there is a distinct pinkish-orange clustering of tiles in the center of distribution, around sea state class 3-4 and wind state class 6-7. This could indicate that moderate weather conditions yield a higher frequency of overall seabird observations.\n\n\n\n\n\nFigure 2: Heatmap displaying the intensity of seabird observations by sea state class and wind state class. Data: TidyTuesday (Github)"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Cameron Cornforth",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Cameron is a student of the Mathematics and Statistics department at California State University, Monterey Bay"
+    "text": "I am a first generation college student, currently in my third-year as a statistics major at CSUMB. I am the captain of the men’s cross country and track and field teams, and enjoy enjoy exercise in the elements. For my campus day job, I am a tutor at the Cooperative Learning Center, providing illumination for STAT 250 students on the applications of statistics in science and technology. I am excited to start my first research experience with the NHGRI Great Scholar’s program over summer 2026, where I will be working at UCSC. In my free time, I enjoy going to the movies, hiking, traveling, and spending time with friends."
   },
   {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Cameron Cornforth",
-    "section": "Education",
-    "text": "Education\nCSUMB | Monterey, California\nB.S. in Statistics and Data Science | Currently Enrolled"
-  },
-  {
-    "objectID": "index.html#experience",
-    "href": "index.html#experience",
-    "title": "Cameron Cornforth",
-    "section": "Experience",
-    "text": "Experience\nStatistics Tutor at the CSUMB Cooperative Learning Center"
-  },
-  {
-    "objectID": "cv/cv.html",
-    "href": "cv/cv.html",
-    "title": "CV",
+    "objectID": "about.html#about-cameron-cornforth",
+    "href": "about.html#about-cameron-cornforth",
+    "title": "About",
     "section": "",
-    "text": "Download PDF File\n   \n    Unable to display PDF file. Download instead."
+    "text": "I am a first generation college student, currently in my third-year as a statistics major at CSUMB. I am the captain of the men’s cross country and track and field teams, and enjoy enjoy exercise in the elements. For my campus day job, I am a tutor at the Cooperative Learning Center, providing illumination for STAT 250 students on the applications of statistics in science and technology. I am excited to start my first research experience with the NHGRI Great Scholar’s program over summer 2026, where I will be working at UCSC. In my free time, I enjoy going to the movies, hiking, traveling, and spending time with friends."
+  },
+  {
+    "objectID": "research-interests.html",
+    "href": "research-interests.html",
+    "title": "Research Interests",
+    "section": "",
+    "text": "I want to use my experience in the GREAT program and graduate school to contribute to the larger body of wound healing research from a computational standpoint. I plan on using machine learning and autoencoders to be able to predict the stages of wound healing, potentially attributing genetic elements as a factor impacting wound healing progression. Additionally, since I am new to the field of statistics as a whole, I want to learn more about what the process of statistics is like in practice, both conceptually and computationally, outside of the classroom. Given that I have minimal prior research experience and I have only recently become comfortable with saying I am a statistics major, I would be fulfilled contributing to genomic research to the best of my capacity in any way, and I hope to be able to use these upcoming experiences for the betterment of human health as I continue my education and into my future career."
   }
 ]

@@ -1,0 +1,8 @@
+---
+title: "Blog"
+format: html
+---
+
+# Coming Soon!
+
+I plan on updating this section weekly throughout my GREAT Scholars summer research experience. I will post about challenges I have encountered and insights I have gained along the way. 

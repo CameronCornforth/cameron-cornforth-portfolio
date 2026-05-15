@@ -4,5 +4,93 @@ format: html
 
 ---
 
-{{< pdf cv/cornforthc_biostats_cv.pdf button="Download PDF" >}}
+# Cameron Cornforth
+### ccornforth@csumb.edu ❙ (808)-731-9288 ❙ Marina, CA
+## EDUCATION
+
+California State University, Monterey Bay, Seaside, CA 	Expected Graduation: May 2027
+Bachelor of Science, Statistics and Data Science 
+Current Cumulative GPA: 4.0
+
+
+## RESEARCH INTERESTS
+
+- Biostatistics - Applying statistical techniques to scientific research in health-related fields, including medicine, biology, and public health, and the development of new tools to study these areas.
+
+- Genomics - Studying genomes in their entirety and the large amounts of corresponding data generated from them, with application in health outcomes at the population level. 
+
+- Biomathematics - Using mathematical models, algorithms, and simulations to understand biological phenomena better.  
+
+
+## RELEVANT COURSEWORK
+
+# STAT 410 - Generalized Linear Models	2026
+- Fit linear models using least squares regression and maximum likelihood estimation for general linear, logistic, and Poisson models. 
+- Assessed and evaluated the assumptions of the model, including multicollinearity, linearity, and assumptions associated with residuals of the model.
+- Used statistical programming software (R) to fit and evaluate models, produce graphics, and create reproducible analyses and reports.
+
+## STAT 335 - Data Simulation and Analysis	2025
+- Implemented and evaluated appropriate statistical models to address research questions.
+- Applied concepts such as ANCOVA, Logistic Mixed-Effects, and Survival Analysis to real-world datasets.
+- Utilized simulation in R to evaluate bias, variance, statistical power, and coverage probability.
+
+## STAT 310 - Data Visualization	2025
+- Created dynamic data visualizations using R/Quarto to convey underlying relationships, correlations, and data distribution within datasets. 
+- Showcased interactive dashboards using spatio-temporal data to address primary research questions. 
+- Harnessed key concepts in data visualization, such as Gestalt Principles and elements of design, to highlight aspects of visualizations. 
+
+## EXPERIENCE
+
+Statistics SI Leader (Tutor)
+Cooperative Learning Center, California State University Monterey Bay (CSUMB), Seaside, CA 	(August 2025 - Present)
+
+- Lead weekly concept and topic sessions to encourage healthy study habits for students.
+- Collaborate with fellow SI leaders and coordinators to create relevant study resources for module content.
+- Explain introductory-level statistical concepts in both individual and group settings.
+
+Research Assistant/Intern
+Cascadia Research Collective Project, Lana’i, HI 	(July 2024)
+
+- Conducted field data collection for sea state conditions, event timeframe, and wildlife encountered.
+- Handled and processed marine mammal biopsies for laboratory genetic analysis.
+- Created tables in Excel of pilot whale dive rates using telemetry tag data.
+
+
+## RESEARCH EXPERIENCE
+
+CURE Research 
+California State University Monterey Bay (CSUMB), Seaside, CA	(January - May 2025)
+
+- Created and analyzed transects in coastal dune habitat to report the abundance of native plant species.
+- Used regression analysis to indicate the decreased percent coverage in E. cicutarium over time.
+- Worked with classmates in the field to properly collect plant coverage data by random sampling methods.
+
+
+## VOLUNTEER EXPERIENCE
+
+Habitat Stewardship Project of Monterey, Marina, CA (25 hours)		(January - May 2025)
+
+- Cultivated transplants for endemic and native foliage species.
+- Contributed to HSP’s social media page, creating informational graphics about native/invasive species.
+- Led groups at local outreach events in invasive species removal and native replanting.
+
+
+## SKILLS
+
+- Proficient in R for creating intricate data visualizations and running simulations using probability models.
+- Beginner-level programming in Java.  
+- Efficiency in diagnosing students’ errors in R Markdown and Quarto documents.
+- Effective in drawing inferences from statistical analysis using thorough explanations citing data.
+- Medium-level technical statistical writing skills.
+- Passionate about deconstructing complex concepts for students to understand in their own way.
+- Prompt communicator with a reputation for timely response. 
+
+## AWARDS AND HONORS
+
+- CSUMB Dean’s List 2023-2026
+- CCAA Elite 13 Award
+- CSUMB Men’s Cross-Country/Track and Field Team Captain
+- 2025-2026 CSUMB Scholar of the Year Award
+- Pi Mu Epsilon Member
+
 

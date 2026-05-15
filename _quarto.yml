@@ -9,16 +9,20 @@ website:
   title: "Cameron Cornforth's ePortfolio"
   navbar:
     left:
-      - href: index.qmd
-        text: "Home"
-      - href: about.qmd
-        text: "About Me"
-      - href: research-interests.qmd
-        text: "Research Interests"
-      - href: cv/cv.qmd
-        text: "Curriculum Vitae"
-      - href: portfolio-project/project-portfolio.qmd
-        text: "Project: Exploring Seabird Data Over Time"
+      - text: "Home"
+        href: index.qmd
+      - text: "About Me"
+        href: about.qmd
+      - text: "Research Interests"
+        href: research-interests.qmd
+      - text: "Curriculum Vitae"
+        href: cv/cv.qmd
+      - text: "Class Projects"
+        menu:
+          - text: "Project: Exploring Seabird Data Over Time"
+            href: portfolio-project/project-portfolio.qmd
+      - text: "Blog"
+        href: blog.qmd
 
 format:
   html:

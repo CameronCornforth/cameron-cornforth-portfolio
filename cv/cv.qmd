@@ -8,9 +8,10 @@ format: html
 ### ccornforth@csumb.edu ❙ (808)-731-9288 ❙ Marina, CA
 ## EDUCATION
 
-California State University, Monterey Bay, Seaside, CA 	Expected Graduation: May 2027
-Bachelor of Science, Statistics and Data Science 
-Current Cumulative GPA: 4.0
+California State University, Monterey Bay, Seaside, CA 	  
+Expected Graduation: May 2027     
+Bachelor of Science, Statistics and Data Science      
+Current Cumulative GPA: 4.0       
 
 
 ## RESEARCH INTERESTS

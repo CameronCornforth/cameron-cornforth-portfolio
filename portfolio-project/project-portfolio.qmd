@@ -50,7 +50,7 @@ ships <- read_csv("data-raw/ships.csv")
 bird_count <- read_csv("data-raw/birds.csv")|>
   select(bird_observation_id,
          record_id,
-         count)
+         count)     # selecting only necessary variables
 
 bird_count <- bird_count|>
   left_join(ships,

@@ -4,8 +4,9 @@ format: html
 
 ---
 
-# Cameron Cornforth
-### ccornforth@csumb.edu ❙ (808)-731-9288 ❙ Marina, CA
+## Cameron Cornforth
+ccornforth@csumb.edu ❙ (808)-731-9288 ❙ Marina, CA
+
 ## EDUCATION
 
 California State University, Monterey Bay, Seaside, CA 	  
@@ -25,17 +26,17 @@ Current Cumulative GPA: 4.0
 
 ## RELEVANT COURSEWORK
 
-# STAT 410 - Generalized Linear Models	2026
+### STAT 410 - Generalized Linear Models	2026
 - Fit linear models using least squares regression and maximum likelihood estimation for general linear, logistic, and Poisson models. 
 - Assessed and evaluated the assumptions of the model, including multicollinearity, linearity, and assumptions associated with residuals of the model.
 - Used statistical programming software (R) to fit and evaluate models, produce graphics, and create reproducible analyses and reports.
 
-## STAT 335 - Data Simulation and Analysis	2025
+### STAT 335 - Data Simulation and Analysis	2025
 - Implemented and evaluated appropriate statistical models to address research questions.
 - Applied concepts such as ANCOVA, Logistic Mixed-Effects, and Survival Analysis to real-world datasets.
 - Utilized simulation in R to evaluate bias, variance, statistical power, and coverage probability.
 
-## STAT 310 - Data Visualization	2025
+### STAT 310 - Data Visualization	2025
 - Created dynamic data visualizations using R/Quarto to convey underlying relationships, correlations, and data distribution within datasets. 
 - Showcased interactive dashboards using spatio-temporal data to address primary research questions. 
 - Harnessed key concepts in data visualization, such as Gestalt Principles and elements of design, to highlight aspects of visualizations. 

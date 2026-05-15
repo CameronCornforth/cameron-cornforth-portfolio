@@ -11,35 +11,35 @@
     "href": "cv/cv.html",
     "title": "CV",
     "section": "",
-    "text": "California State University, Monterey Bay, Seaside, CA\nExpected Graduation: May 2027\nBachelor of Science, Statistics and Data Science\nCurrent Cumulative GPA: 4.0\n\n\n\n\nBiostatistics - Applying statistical techniques to scientific research in health-related fields, including medicine, biology, and public health, and the development of new tools to study these areas.\nGenomics - Studying genomes in their entirety and the large amounts of corresponding data generated from them, with application in health outcomes at the population level.\nBiomathematics - Using mathematical models, algorithms, and simulations to understand biological phenomena better."
+    "text": "ccornforth@csumb.edu ❙ (808)-731-9288 ❙ Marina, CA"
+  },
+  {
+    "objectID": "cv/cv.html#cameron-cornforth",
+    "href": "cv/cv.html#cameron-cornforth",
+    "title": "CV",
+    "section": "",
+    "text": "ccornforth@csumb.edu ❙ (808)-731-9288 ❙ Marina, CA"
   },
   {
     "objectID": "cv/cv.html#education",
     "href": "cv/cv.html#education",
     "title": "CV",
-    "section": "",
-    "text": "California State University, Monterey Bay, Seaside, CA\nExpected Graduation: May 2027\nBachelor of Science, Statistics and Data Science\nCurrent Cumulative GPA: 4.0"
+    "section": "EDUCATION",
+    "text": "EDUCATION\nCalifornia State University, Monterey Bay, Seaside, CA\nExpected Graduation: May 2027\nBachelor of Science, Statistics and Data Science\nCurrent Cumulative GPA: 4.0"
   },
   {
     "objectID": "cv/cv.html#research-interests",
     "href": "cv/cv.html#research-interests",
     "title": "CV",
-    "section": "",
-    "text": "Biostatistics - Applying statistical techniques to scientific research in health-related fields, including medicine, biology, and public health, and the development of new tools to study these areas.\nGenomics - Studying genomes in their entirety and the large amounts of corresponding data generated from them, with application in health outcomes at the population level.\nBiomathematics - Using mathematical models, algorithms, and simulations to understand biological phenomena better."
+    "section": "RESEARCH INTERESTS",
+    "text": "RESEARCH INTERESTS\n\nBiostatistics - Applying statistical techniques to scientific research in health-related fields, including medicine, biology, and public health, and the development of new tools to study these areas.\nGenomics - Studying genomes in their entirety and the large amounts of corresponding data generated from them, with application in health outcomes at the population level.\nBiomathematics - Using mathematical models, algorithms, and simulations to understand biological phenomena better."
   },
   {
-    "objectID": "cv/cv.html#stat-335---data-simulation-and-analysis-2025",
-    "href": "cv/cv.html#stat-335---data-simulation-and-analysis-2025",
+    "objectID": "cv/cv.html#relevant-coursework",
+    "href": "cv/cv.html#relevant-coursework",
     "title": "CV",
-    "section": "STAT 335 - Data Simulation and Analysis 2025",
-    "text": "STAT 335 - Data Simulation and Analysis 2025\n\nImplemented and evaluated appropriate statistical models to address research questions.\nApplied concepts such as ANCOVA, Logistic Mixed-Effects, and Survival Analysis to real-world datasets.\nUtilized simulation in R to evaluate bias, variance, statistical power, and coverage probability."
-  },
-  {
-    "objectID": "cv/cv.html#stat-310---data-visualization-2025",
-    "href": "cv/cv.html#stat-310---data-visualization-2025",
-    "title": "CV",
-    "section": "STAT 310 - Data Visualization 2025",
-    "text": "STAT 310 - Data Visualization 2025\n\nCreated dynamic data visualizations using R/Quarto to convey underlying relationships, correlations, and data distribution within datasets.\nShowcased interactive dashboards using spatio-temporal data to address primary research questions.\nHarnessed key concepts in data visualization, such as Gestalt Principles and elements of design, to highlight aspects of visualizations."
+    "section": "RELEVANT COURSEWORK",
+    "text": "RELEVANT COURSEWORK\n\nSTAT 410 - Generalized Linear Models 2026\n\nFit linear models using least squares regression and maximum likelihood estimation for general linear, logistic, and Poisson models.\nAssessed and evaluated the assumptions of the model, including multicollinearity, linearity, and assumptions associated with residuals of the model.\nUsed statistical programming software (R) to fit and evaluate models, produce graphics, and create reproducible analyses and reports.\n\n\n\nSTAT 335 - Data Simulation and Analysis 2025\n\nImplemented and evaluated appropriate statistical models to address research questions.\nApplied concepts such as ANCOVA, Logistic Mixed-Effects, and Survival Analysis to real-world datasets.\nUtilized simulation in R to evaluate bias, variance, statistical power, and coverage probability.\n\n\n\nSTAT 310 - Data Visualization 2025\n\nCreated dynamic data visualizations using R/Quarto to convey underlying relationships, correlations, and data distribution within datasets.\nShowcased interactive dashboards using spatio-temporal data to address primary research questions.\nHarnessed key concepts in data visualization, such as Gestalt Principles and elements of design, to highlight aspects of visualizations."
   },
   {
     "objectID": "cv/cv.html#experience",

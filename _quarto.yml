@@ -6,7 +6,7 @@ resources:
   - "cv/cornforthc_biostats_cv.pdf"
 
 website:
-  title: "Cameron Cornforth's ePortfolio"
+  title: "Cornforth \nePortfolio"
   navbar:
     left:
       - text: "Home"

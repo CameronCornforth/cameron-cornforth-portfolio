@@ -14,7 +14,6 @@ embed-resources: true
 
 library(tidyverse)     # package for general data cleaning/tidyness
 library(ggplot2)       # for creating my visualizations
-library(lubridate)     # for converting date to a numeric x-component
 library(paletteer)     # for color scales
 library(reshape2)      # for creating the heatmap
 library(ggthemes)      # for adding a new continuous color scale to the heatmap

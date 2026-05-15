@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: docs
+  
+resources:
+  - "cv/cornforthc_biostats_cv.pdf"
 
 website:
   title: "Cameron Cornforth's ePortfolio"
@@ -10,9 +13,13 @@ website:
         text: "Home"
       - href: about.qmd
         text: "About Me"
+      - href: research-interests.qmd
+        text: "Research Interests"
+      - href: cv/cv.qmd
+        text: "Curriculum Vitae"
       - href: portfolio-project/project-portfolio.qmd
         text: "Project: Exploring Seabird Data Over Time"
-        
+
 format:
   html:
     theme: spacelab

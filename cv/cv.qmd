@@ -1,0 +1,10 @@
+---
+title: "CV"
+format:
+  html:
+    embed-resources: true
+
+---
+
+{{< pdf cv/cornforthc_biostats_cv.pdf button="Download PDF" >}}
+

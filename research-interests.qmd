@@ -1,0 +1,11 @@
+---
+title: "Research Interests"
+about:
+  template: marquee
+  image: nih-nhgri.png
+---
+
+I want to use my experience in the GREAT program and graduate school to contribute to the larger body of wound healing research from a computational standpoint. I plan on using machine learning and autoencoders to be able to predict the stages of wound healing, potentially attributing genetic elements as a factor impacting wound healing progression. Additionally, since I am new to the field of statistics as a whole, I want to learn more about what the process of statistics is like in practice, both conceptually and computationally, outside of the classroom. Given that I have minimal prior research experience and I have only recently become comfortable with saying I am a statistics major, I would be fulfilled contributing to genomic research to the best of my capacity in any way, and I hope to be able to use these upcoming experiences for the betterment of human health as I continue my education and into my future career.
+
+
+

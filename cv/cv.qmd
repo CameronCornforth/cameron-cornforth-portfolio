@@ -1,10 +1,8 @@
 ---
 title: "CV"
-format:
-  html:
-    embed-resources: true
+format: html
 
 ---
 
-{{< pdf cv/cornforthc_biostats_cv.pdf button="Download PDF" >}}
+{{< pdf cornforthc_biostats_cv.pdf button="Download PDF" >}}
 

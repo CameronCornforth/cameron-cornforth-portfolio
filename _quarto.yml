@@ -19,7 +19,7 @@ website:
         href: cv/cv.qmd
       - text: "Class Projects"
         menu:
-          - text: "Project: Exploring Seabird Data Over Time"
+          - text: "Project: Exploring Seabird Data"
             href: portfolio-project/project-portfolio.qmd
       - text: "Blog"
         href: blog.qmd

@@ -21,6 +21,8 @@ website:
         menu:
           - text: "Project: Exploring Seabird Data"
             href: portfolio-project/project-portfolio.qmd
+          - text: "Exploring UFO Data"
+            href: Final-Project-Dashboard.html
       - text: "Blog"
         href: blog.qmd
 
